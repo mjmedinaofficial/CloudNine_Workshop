@@ -2,23 +2,12 @@
 
 const projects = [
   {
-    title: "Project One",
-    description: "A beautiful website built with HTML, CSS, and JavaScript",
-    tags: ["HTML", "CSS", "JavaScript"],
-    link: "#",
+    title: "School Management System",
+    description: "A school management system for Adamson University.",
+    tags: ["C#", ".NET", "Canva"],
+    link: "https://google.com",
   },
-  {
-    title: "Project Two",
-    description: "An interactive web app with Tailwind CSS styling",
-    tags: ["JavaScript", "Tailwind", "Web App"],
-    link: "#",
-  },
-  {
-    title: "Project Three",
-    description: "A responsive portfolio website for a client",
-    tags: ["HTML", "CSS", "Responsive"],
-    link: "#",
-    },
+
 
 
 ]

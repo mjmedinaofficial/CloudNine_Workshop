@@ -26,7 +26,7 @@ contactForm.addEventListener("submit", async (e) => {
 
   try {
     // Send to Formspree
-      const response = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+      const response = await fetch("https://formspree.io/f/myzvwgow", {
       method: "POST",
       body: formData,
       headers: {
@@ -51,4 +51,6 @@ contactForm.addEventListener("submit", async (e) => {
     formMessage.textContent = "Error sending message. Please try again."
     formMessage.className = "text-center text-sm text-red-400"
   }
+
+  
 })
